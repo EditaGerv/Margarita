@@ -16,8 +16,6 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> { //A
     private LayoutInflater inflater;
     List<Margarita> drinks; //duomenys, kuriuos mes perduodame Adapteriui per konstruktoriu
 
-    public static final String ENTRY="com.corona.corona2.ENTRY";
-
     // create constructor to initialize context and data sent from SearchActivity
     public Adapter(Context context, List<Margarita> data) {
         this.context = context;
